@@ -23,7 +23,7 @@ Este repositório será responsável pelo versionamento de projetos e organizaç
 </h2>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NnkwaXBteGNvN2ltYzRiOTBxMnFhem51d2RlMTk5cDE3Z3VuOGwxaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/sNUWF7fAUP2q4/giphy.gif" alt="Demonstração do projeto" width="500">
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cjI2cnlrbzFmOGE5eGxqZHBoM2k4ZzhqZXBqaXJuZ2FkcGt1Z3Z6MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11KzOet1ElBDz2/giphy.gif" alt="Demonstração do projeto" width="500">
 </p>
 
 <p align="center">
