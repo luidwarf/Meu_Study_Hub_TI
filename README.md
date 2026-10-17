@@ -1,5 +1,5 @@
 <h1 align="center">
-Meu Study Hub de TI👾</h1>
+Meu Study Hub de TI👾
 </h1>
 
 <p align="center">
