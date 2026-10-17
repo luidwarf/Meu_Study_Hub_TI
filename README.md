@@ -19,6 +19,15 @@ Este repositório será responsável pelo versionamento de projetos e organizaç
 * **Objetivo**: Facilitar os estudos ao longo do curso e organizar minhas conquistas durante esse período.
 
 <h2 align="left">
+💠Sobre mim:
+</h2>
+
+* Curso o **1° Período** de Engenharia de Software.
+* Crio jogos com **Luau** pela plataforma Roblox.
+* Desenvolvo Bots de Discord com **Python**.
+* **Meu objetivo**: Juntar conhecimento necessário para atuar na área como Desenvolvedor BackEnd/Full-Stack e abrir minhas próprias empresas.
+
+<h2 align="left">
 💠Extra:
 </h2>
 
