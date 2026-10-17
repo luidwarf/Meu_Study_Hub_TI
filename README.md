@@ -53,7 +53,7 @@ Linguagens, Bancos e Insfraestrutura
 * 📩 luizedbeltrao@gmail.com
 * 📸 [Instagram](https://www.instagram.com/luiz.beltraoo/)
 * 🐦 [X/Twitter](https://x.com/picolebovino)
-* 💼 [LinkedIn](www.linkedin.com/in/luizedbeltrao)
+* 💼 [LinkedIn](https://www.linkedin.com/in/luizedbeltrao)
 
 
 <h2 align="left">
