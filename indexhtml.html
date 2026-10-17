@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Study Hub de Luiz Beltrão: estudos, projetos e tecnologias em Engenharia de Software.">
+  <title>Meu Study Hub de TI | Luiz Beltrão</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b1020;
+      --surface: #121a2d;
+      --surface-2: #18233b;
+      --text: #edf2ff;
+      --muted: #aab6d0;
+      --accent: #8b7cff;
+      --accent-2: #45d6c5;
+      --border: rgba(180, 195, 230, .15);
+      --shadow: 0 18px 50px rgba(0, 0, 0, .22);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(ellipse at 15% 0%, rgba(139, 124, 255, .16), transparent 35rem),
+        radial-gradient(ellipse at 95% 25%, rgba(69, 214, 197, .09), transparent 30rem),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.7;
+    }
+
+    a { color: var(--accent-2); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { width: min(1050px, calc(100% - 36px)); margin: 0 auto; }
+    header { padding: 76px 0 42px; text-align: center; }
+    .eyebrow {
+      display: inline-block;
+      padding: 5px 12px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--accent-2);
+      background: rgba(18, 26, 45, .7);
+      font-size: .85rem;
+      letter-spacing: .04em;
+    }
+    h1 {
+      margin: 18px 0 10px;
+      font-size: clamp(2.2rem, 6vw, 4rem);
+      line-height: 1.12;
+      letter-spacing: -.045em;
+    }
+    .gradient {
+      background: linear-gradient(100deg, #b5aaff, #63e6d6);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .intro { max-width: 700px; margin: 0 auto; color: var(--muted); font-size: 1.08rem; }
+    .intro strong { color: var(--text); }
+    nav {
+      display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;
+      margin-top: 26px;
+    }
+    nav a {
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: rgba(18, 26, 45, .7);
+      color: var(--text);
+      font-size: .9rem;
+    }
+    nav a:hover { border-color: var(--accent); text-decoration: none; }
+    main { padding: 10px 0 55px; }
+    .section {
+      margin: 20px 0;
+      padding: clamp(22px, 4vw, 34px);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      background: linear-gradient(145deg, rgba(18, 26, 45, .96), rgba(15, 22, 39, .92));
+      box-shadow: var(--shadow);
+    }
+    h2 { margin: 0 0 18px; font-size: 1.45rem; letter-spacing: -.02em; }
+    h2 span { margin-right: 7px; }
+    ul { margin: 0; padding-left: 22px; color: var(--muted); }
+    li { padding: 4px 0; }
+    li strong { color: var(--text); }
+    .section-lead { margin: -8px 0 22px; color: var(--muted); text-align: center; }
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(105px, 1fr));
+      gap: 14px;
+    }
+    .tech {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 10px; min-height: 130px; padding: 16px 10px;
+      border: 1px solid var(--border); border-radius: 16px;
+      background: rgba(255, 255, 255, .025);
+      color: var(--muted); font-size: .88rem; text-align: center;
+      transition: transform .2s ease, border-color .2s ease, background .2s ease;
+    }
+    .tech:hover { transform: translateY(-4px); border-color: rgba(139, 124, 255, .65); background: var(--surface-2); }
+    .tech img { width: 58px; height: 58px; object-fit: contain; }
+    .tech .github-logo { width: 58px; height: 58px; }
+    .contact-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; }
+    .contact-item {
+      display: block; padding: 14px 16px; border: 1px solid var(--border);
+      border-radius: 14px; background: rgba(255, 255, 255, .025);
+      overflow-wrap: anywhere;
+    }
+    .contact-item strong { display: block; color: var(--text); margin-bottom: 3px; }
+    .extra-image { display: block; width: min(500px, 100%); height: auto; margin: 8px auto 0; border-radius: 16px; }
+    footer { padding: 0 18px 30px; text-align: center; color: var(--muted); font-size: .9rem; }
+    footer span { color: var(--accent-2); }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <span class="eyebrow">📚 Engenharia de Software · Study Hub</span>
+    <h1>Meu <span class="gradient">Study Hub de TI</span> 👾</h1>
+    <p class="intro">Olá! Eu sou o <strong>Luiz Beltrão</strong>!<br>
+      Este repositório organiza meus estudos, projetos e conquistas ao longo do curso de Engenharia de Software.
+    </p>
+    <nav aria-label="Navegação principal">
+      <a href="#hub">O que apresenta</a>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#tecnologias">Tecnologias</a>
+      <a href="#contato">Contato</a>
+      <a href="#extra">Extra</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section" id="hub">
+      <h2><span>💠</span>O que apresenta</h2>
+      <ul>
+        <li>Pastas organizadas por tópicos.</li>
+        <li>Apresentação pessoal, disciplinas cursadas e projetos/certificados.</li>
+        <li>Arquivos guiando o propósito de cada diretório.</li>
+        <li><strong>Objetivo:</strong> facilitar os estudos ao longo do curso e organizar minhas conquistas durante esse período.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="sobre">
+      <h2><span>💠</span>Sobre mim</h2>
+      <ul>
+        <li>Curso o <strong>1° Período</strong> de Engenharia de Software.</li>
+        <li>Crio jogos com <strong>Luau</strong> pela plataforma Roblox.</li>
+        <li>Desenvolvo Bots de Discord com <strong>Python</strong>.</li>
+        <li><strong>Meu objetivo:</strong> juntar conhecimento necessário para atuar na área como Desenvolvedor BackEnd/Full-Stack e abrir minhas próprias empresas.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="tecnologias">
+      <h2><span>💠</span>Tecnologias</h2>
+      <p class="section-lead">Linguagens, bancos de dados e infraestrutura</p>
+      <div class="tech-grid">
+        <div class="tech">
+          <picture>
+            <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/0c8d1768-0683-492d-8bab-47b752a36d7d">
+            <img class="github-logo" src="https://github.com/user-attachments/assets/e25a7a71-fe6d-4bfa-8a1e-8726fb5902ea" alt="Logo do GitHub" loading="lazy">
+          </picture>
+          <span>GitHub</span>
+        </div>
+        <div class="tech">
+          <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Logo do Python" loading="lazy">
+          <span>Python</span>
+        </div>
+        <div class="tech">
+          <img src="https://raw.githubusercontent.com/luau-lang/site/41db794d9ee6e56a17b399f8a4520b92301fee59/logo.svg" alt="Logo do Luau" loading="lazy">
+          <span>Luau</span>
+        </div>
+        <div class="tech">
+          <img src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/refs/heads/main/PNG/Power-BI.png" alt="Logo do Power BI" loading="lazy">
+          <span>Power BI</span>
+        </div>
+        <div class="tech">
+          <img src="https://www.postgresql.org/media/img/about/press/elephant.png" alt="Logo do PostgreSQL" loading="lazy">
+          <span>PostgreSQL</span>
+        </div>
+        <div class="tech">
+          <img src="https://github.com/user-attachments/assets/fb9412d3-beee-4c11-9cd5-59f84ae87405" alt="Logo do BigQuery" loading="lazy">
+          <span>BigQuery</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <h2><span>💠</span>Contato</h2>
+      <div class="contact-list">
+        <a class="contact-item" href="mailto:luizedbeltrao@gmail.com">
+          <strong>📩 E-mail</strong>luizedbeltrao@gmail.com
+        </a>
+        <a class="contact-item" href="https://www.instagram.com/luiz.beltraoo/" target="_blank" rel="noopener noreferrer">
+          <strong>📸 Instagram</strong>@luiz.beltraoo
+        </a>
+        <a class="contact-item" href="https://x.com/picolebovino" target="_blank" rel="noopener noreferrer">
+          <strong>🐦 X / Twitter</strong>@picolebovino
+        </a>
+        <a class="contact-item" href="https://www.linkedin.com/in/luizedbeltrao" target="_blank" rel="noopener noreferrer">
+          <strong>💼 LinkedIn</strong>luizedbeltrao
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="extra">
+      <h2><span>💠</span>Extra</h2>
+      <img class="extra-image"
+        src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cjI2cnlrbzFmOGE5eGxqZHBoM2k4ZzhqZXBqaXJuZ2FkcGt1Z3Z6MCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11KzOet1ElBDz2/giphy.gif"
+        alt="Demonstração do projeto em GIF" loading="lazy">
+    </section>
+  </main>
+
+  <footer>
+    Feito por <span>Luiz Beltrão</span> · Meu Study Hub de TI
+  </footer>
+</body>
+</html>
