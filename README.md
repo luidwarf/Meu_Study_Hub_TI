@@ -46,6 +46,15 @@ Linguagens, Bancos e Insfraestrutura
 </p>
 <h2>
 
+<h2>
+💠Contato:
+</h2>
+
+* 📩 luizedbeltrao@gmail.com
+* 📸 [Instagram](https://www.instagram.com/luiz.beltraoo/)
+* 🐦 [X/Twitter](https://x.com/picolebovino)
+
+
 <h2 align="left">
 💠Extra:
 </h2>
