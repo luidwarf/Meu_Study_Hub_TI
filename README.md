@@ -6,7 +6,7 @@ Meu Study Hub de TI👾</h1>
 Olá! Eu sou o Luiz Beltrão!
 </p>
 <p align="center">
-Este repositório será responsável pelo versionamento dos projetos e organização dos estudos ao longo do curso de Engenharia de Software.
+Este repositório será responsável pelo versionamento de projetos e organização dos estudos ao longo do curso de Engenharia de Software.
 </p>
 
 <h2 align="left">
