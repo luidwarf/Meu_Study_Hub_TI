@@ -3,10 +3,10 @@ Meu Study Hub de TI👾</h1>
 </h1>
 
 <p align="center">
-Olá! Me chamo Luiz Beltrão
+Olá! Eu sou o Luiz Beltrão!
 </p>
 <p align="center">
-Este repositório é responsável pelo versionamento dos projetos e organização dos estudos ao longo do curso de Engenharia de Software.
+Este repositório será responsável pelo versionamento dos projetos e organização dos estudos ao longo do curso de Engenharia de Software.
 </p>
 
 <h2 align="left">
