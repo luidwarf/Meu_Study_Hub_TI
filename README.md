@@ -16,14 +16,14 @@ Este repositório será responsável pelo versionamento de projetos e organizaç
 * Pastas organizadas por tópicos.
 * Apresentação pessoal, disciplinas cursadas e projetos/certificados.
 * Arquivos guiando o propósito de cada diretório.
-* **Meu objetivo**: Facilitar os estudos ao longo do curso e organizar minhas conquistas durante esse período.
+* **Objetivo**: Facilitar os estudos ao longo do curso e organizar minhas conquistas durante esse período.
 
 <h2 align="left">
 💠Extra:
 </h2>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cXdrOGdwMGl5cm5vdnJwdTB0ZnZ5d3RocGtvYjJvZjNlMm1nZ3Z3bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/tptFQ8QAJYYvu/giphy.gif" alt="Demonstração do projeto" width="500">
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NnkwaXBteGNvN2ltYzRiOTBxMnFhem51d2RlMTk5cDE3Z3VuOGwxaSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/sNUWF7fAUP2q4/giphy.gif" alt="Demonstração do projeto" width="500">
 </p>
 
 <p align="center">
