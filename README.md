@@ -3,10 +3,10 @@ Meu Study Hub de TI👾</h1>
 </h1>
 
 <p align="center">
-Sou estudante de Engenharia de Software — 1° Semestre
+Olá! Me chamo Luiz Beltrão
 </p>
 <p align="center">
-Gosto de programar e conhecer novas linguagens, prezo sempre pela constante evolução!
+Este repositório é responsável pelo versionamento dos projetos e organização dos estudos ao longo do curso de Engenharia de Software.
 </p>
 
 <h2 align="left">
