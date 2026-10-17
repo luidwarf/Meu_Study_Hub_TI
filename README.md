@@ -27,10 +27,8 @@ Linguagens, Bancos e Insfraestrutura
 </p>
 
 <p align="center">
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/f46850ac-365f-487a-a31b-960db24a3c02#gh-dark-mode-only" >
-  <img alt="GitHub Logo" src="https://github.com/user-attachments/assets/e0374eec-23ce-437f-b802-1ec506d977da" width="70" height="70" >
-  </picture> 
+  <img alt= "GitHub Logo Modo Escuro" src="https://github.com/user-attachments/assets/e25a7a71-fe6d-4bfa-8a1e-8726fb5902ea#gh-dark-mode-only" width="70" height="70" >
+  <img alt="GitHub Logo Modo Claro" src="https://github.com/user-attachments/assets/0c8d1768-0683-492d-8bab-47b752a36d7d#gh-light-mode-only" width="70" height="70" >
   <img alt="Python Logo" src=https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png width="70" height="70">
   <img alt="Luau Logo" src=https://raw.githubusercontent.com/luau-lang/site/41db794d9ee6e56a17b399f8a4520b92301fee59/logo.svg width="70" heigth="70">
   <img alt="Power BI Logo" src=https://raw.githubusercontent.com/microsoft/PowerBI-Icons/refs/heads/main/PNG/Power-BI.png width="70" height="70">
